@@ -1,7 +1,7 @@
 import { LockClosedIcon } from '@heroicons/react/20/solid'
 import logo from './assets/img/logo.png'
 
-export default function Example() {
+export default function Login() {
   return (
     <>
     <div className="w-full h-screen max-h-full bg-black">
