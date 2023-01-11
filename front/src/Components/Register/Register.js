@@ -22,7 +22,6 @@ export default function Example() {
                 Ou{" "}
                 <Link to="/login">
                   <a
-                    href="#"
                     className="font-medium text-green-500 hover:text-black"
                   >
                     Ja tem conta?

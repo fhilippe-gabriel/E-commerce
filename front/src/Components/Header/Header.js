@@ -96,12 +96,15 @@ export default function Header() {
                     ))}
                   </div>
                   <div className="py-6">
+                  <Link to="login">
+
                     <a
-                      href="#"
                       className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-blue-800 hover:bg-green-400/10"
                     >
                       Login
                     </a>
+                    </Link>
+
                   </div>
                 </div>
               </div>
