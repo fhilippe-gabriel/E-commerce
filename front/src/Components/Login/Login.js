@@ -24,7 +24,7 @@ export default function Login() {
             <a className="font-medium text-green-500 hover:text-black">
                 Registre-se
               </a><
-                /Link>
+                </Link>
             </p>
           </div>
           <form className="mt-8 space-y-6 " action="#" method="POST">
