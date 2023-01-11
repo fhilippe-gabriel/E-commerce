@@ -1,8 +1,9 @@
-import Header from "../Header/Header"
+import Header from "../Header/Header";
+
 export default function Example() {
-    return (
-        <div>
-                        <Header/>
+  return (
+    <div>
+      <Header />
 
       <div className="relative overflow-hidden bg-black">
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
@@ -12,8 +13,8 @@ export default function Example() {
                 Summer styles are finally here
               </h1>
               <p className="mt-4 text-xl text-green-800">
-                This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care
-                if you live or die.
+                This year, our new summer collection will shelter you from the
+                harsh elements of a world that doesn't care if you live or die.
               </p>
             </div>
             <div>
@@ -83,7 +84,7 @@ export default function Example() {
                     </div>
                   </div>
                 </div>
-  
+
                 <a
                   href="#"
                   className="inline-block rounded-md border border-transparent bg-green-600 py-3 px-8 text-center font-medium text-black  hover:bg-green-300"
@@ -95,6 +96,6 @@ export default function Example() {
           </div>
         </div>
       </div>
-      </div>
-    )
-  }
+    </div>
+  );
+}
