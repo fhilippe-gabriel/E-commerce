@@ -1,5 +1,7 @@
 import { LockClosedIcon } from '@heroicons/react/20/solid'
-import logo from './assets/img/logo.png'
+import logo from '../../assets/img/logo.png'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export default function Example() {
   return (

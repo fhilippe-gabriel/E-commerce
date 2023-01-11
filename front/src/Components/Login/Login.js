@@ -1,5 +1,7 @@
 import { LockClosedIcon } from '@heroicons/react/20/solid'
-import logo from './assets/img/logo.png'
+import logo from '../../assets/img/logo.png'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export default function Login() {
   return (
@@ -18,9 +20,11 @@ export default function Login() {
             </h2>
             <p className="mt-2 text-center text-base text-gray-600">
               Ou{' '}
-              <a href="#" className="font-medium text-green-500 hover:text-black">
+            <Link to='register'>  
+            <a className="font-medium text-green-500 hover:text-black">
                 Registre-se
-              </a>
+              </a><
+                /Link>
             </p>
           </div>
           <form className="mt-8 space-y-6 " action="#" method="POST">
@@ -55,17 +59,8 @@ export default function Login() {
                 />
               </div>
             </div>
-
             <div className="flex items-center justify-center">
-   
-
-              <div className="text-base">
-                <a href="#" className="font-medium text-green-500 hover:text-black">
-                  Esqueceu Sua senha?
-                </a>
-              </div>
             </div>
-
             <div>
               <button
                 type="submit"
