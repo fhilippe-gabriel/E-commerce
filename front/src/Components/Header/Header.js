@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const navigation = [
   { name: "Home", href: "#" },
+  { name: "Coleções", href: "#" },
   { name: "Produtos", href: "#" },
   { name: "Sobre", href: "#" },
   { name: "Contato", href: "#" },
@@ -96,13 +97,13 @@ export default function Header() {
                     ))}
                   </div>
                   <div className="py-6">
-                  <Link to="login">
+                    <Link to="login">
 
-                    <a
-                      className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-blue-800 hover:bg-green-400/10"
-                    >
-                      Login
-                    </a>
+                      <a
+                        className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-blue-800 hover:bg-green-400/10"
+                      >
+                        Login
+                      </a>
                     </Link>
 
                   </div>
