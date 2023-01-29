@@ -1,6 +1,7 @@
 import { LockClosedIcon } from "@heroicons/react/20/solid";
 import logo from "../../assets/img/logo.png";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from '../Footer/Footer'
 import { Link } from "react-router-dom";
 
 export default function Login() {
@@ -21,7 +22,7 @@ export default function Login() {
               <p className="mt-2 text-center text-base text-gray-600">
                 Ou{" "}
                 <Link to="/register">
-                  <a className="font-medium text-green-500 hover:text-black">
+                  <a className="font-medium text-green-500 hover:text-green-300">
                     Registre-se
                   </a>
                 </Link>
@@ -77,6 +78,8 @@ export default function Login() {
             </form>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );
